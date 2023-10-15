@@ -1,0 +1,21 @@
+
+
+# Données personnelles
+compte.csv
+
+# C
+
+a.out
+*.o
+
+
+# latex
+
+*.aux
+*.log
+*.toc
+*.pdf
+*.out
+
+# divers
+*~
