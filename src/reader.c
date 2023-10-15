@@ -77,7 +77,7 @@ void free_my_file(void *** file){
 
 
 int main(int arc, char * argv){
-    char * nom_du_fichier = "./../data/comptes.csv";
+    char * nom_du_fichier = "./../data/private_data.csv";
 
     FILE *fichier = fopen(nom_du_fichier, "r");
 
