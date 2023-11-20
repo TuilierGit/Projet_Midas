@@ -4,3 +4,23 @@ h1{
     padding: 1 em;
     background-color: goldenrod ;
 }
+
+
+.list_of_graphs {
+    background-color: brown;
+    margin: 50px;
+    padding: 30px;
+    height: 700px;
+
+    
+    display: grid;
+    grid-template-rows: 1fr, 1fr, 1fr;
+    /* grid-template-columns: 1fr, 1fr; */
+}
+
+.graph{
+    background-color: beige;
+    width: 150px;
+    height: 150px;
+    border: 0.2em solid orangered;
+}

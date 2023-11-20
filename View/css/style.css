@@ -86,74 +86,8 @@ footer {
 
 
 
-.wrapper{
-    float: right;
-    width: 1000px;
-    margin-right: 380px; 
-    height: 900px;
-    padding: 0px;
-    background-color: var(--ma-couleur-tertiaire-theme1);
-    /* background-color: aqua; */
-}
 
 
-.wrapper h1{
-    margin: 15px;
-    color: var(--ma-couleur-element_1-theme1);
-    background-color: var(--ma-couleur-secondaire-theme1);
-}
-
-
-
-.navigation{
-    margin-left: 50px;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    float: left;
-    /* width: 30%; */
-    width: 15%;
-    height: 900px;
-}
-
-.navigation_top{
-    /* background-color: rgb(0, 255, 106); */
-    /* background-color: #282828; */
-    background-color: var(--ma-couleur-secondaire-theme1);
-}
-
-.navigation_bot{
-    /* background-color: rgb(129, 46, 145); */
-    background-color: var(--ma-couleur-secondaire-theme1);
-}
-
-.navigation_bot div{
-    /* width: 300px ;
-    margin: 50px; */
-    margin: 15px;
-    padding: 20px;
-    text-align: center;
-    background-color: #1c1e20;
-
-    color: var(--ma-couleur-element_1-theme1);
-    border: 0.2em solid var(--ma-couleur-element_2-theme1);
-    /* color: goldenrod;
-    border: 0.2em solid goldenrod; */
-    border-radius: 20px;    
-}
-
-
-
-.product_list{
-    height: 700px;
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr;
-    gap: 40px; 
-    padding: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
-    /* background-color: bisque; */
-}
 
 
 
@@ -167,65 +101,6 @@ footer {
     margin-left: 60px;
 } */
 
-
-.box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* text-align: center; */
-    /* vertical-align: middle; */
-    /* background-color: #1c1e20; */
-    background-color: var(--ma-couleur-principale-theme1);
-    /* border: 0.2em solid goldenrod; */
-    border: 0.2em solid var(--ma-couleur-element_2-theme1);
-    border-radius: 20px;    
-    overflow: hidden; 
-
-}
-
-.box div{
-    text-align: center;
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
-}
-
-.box:hover {
-    opacity: 0.9;
-}
-
-
-.box h3{
-    /* color: goldenrod; */
-    color: var(--ma-couleur-element_1-theme1);
-  }
-  
-  
-.box p{
-    color: white;
-  }
-
-
-  /* .box img {
-    position: relative;
-    left: -20px; 
-    width: 115%; 
-    height: auto; 
-} */
-
-
-.extra{
-    clear: both;
-    width: 100%;
-    background-color: rgb(23,00,46);
-}
-
-.extra p{
-    padding-left: 20px;
-}
 
 
 
