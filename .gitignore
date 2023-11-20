@@ -3,14 +3,12 @@
 # Données personnelles
 private_data.csv
 
-# C
-
-a.out
-*.o
+# Java
+*.class
+*.tar
 
 
 # latex
-
 *.aux
 *.log
 *.toc
@@ -18,4 +16,6 @@ a.out
 *.out
 
 # divers
+divers/*
+bin/*
 *~
