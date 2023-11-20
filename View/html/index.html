@@ -7,7 +7,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' href='../css/style.css'>
     <link rel='stylesheet' href='../css/index.css'>
-    <script src='main.js'></script>
+
 </head>
 
 <body>
@@ -40,7 +40,7 @@
                     
                     <div class="page_ratios_principaux">
                         <h3>Ratios Principaux</h3>
-                        <p>Visualisation de mon patrimoine et de mon épargne</p>
+                        <p>Visualisation de mon patrimoine<br>et de mon épargne</p>
                                 
                         <!-- <div class="box_pdg"> -->
                             
@@ -64,9 +64,9 @@
                     <a href="composition_du_patrimoine.html">
                     <div class="box_pdg">
                         
-                        <div class="product__image">
+                        <!-- <div class="product__image">
                             <img src="../products/formations/formation_jody_cavalie/pictures/logo.jpg">
-                        </div>
+                        </div> -->
 
                         <div class="product__info">
                             <h3>Composition du Patrimoine</h3>
@@ -84,9 +84,9 @@
                     <div class="box_pdg">
                         <a href="revenus.html">
                     
-                        <div class="product__image">
+                        <!-- <div class="product__image">
                             <img src="../products/formations/formation_jody_cavalie/pictures/logo.jpg">
-                        </div>
+                        </div> -->
 
                         <div class="product__info">
                             <h3>Revenus</h3>
@@ -105,9 +105,9 @@
                     <div class="box_pdg">
                         <a href="depenses.html">
                     
-                        <div class="product__image">
+                        <!-- <div class="product__image">
                             <img src="../products/formations/formation_jody_cavalie/pictures/logo.jpg">
-                        </div>
+                        </div> -->
 
                         <div class="product__info">
                             <h3>Dépenses</h3>
@@ -141,6 +141,9 @@
                 flex-shrink
                 flex-basis
                 </p>
+                <button id="changer-theme">Changer de Thème</button>
+                
+                
         </div>
 
         <div class = "navigation_bot">
@@ -174,24 +177,28 @@
     </div>
 
     <div class="extra">    
-        <p>zfzshdgsgjpsogjdĝj
-        Styling Flex Container
-        flex-direction
-        flex-wrap
-        justify-content
-        align-content
-        align-items
-        Designing Flex Items
-        order
-        align-self
-        flex-grow
-        flex-shrink
-        flex-basis
+        <p>version : 0.1.1
         </p>
     </div>
+
+
+    <div class="options_bar">
+        <div>
+            <button id="help_button">Aide</button>
+            
+        </div>
+
+        <div class = "help_page" id="option__help">
+            <p>ceci est l'aide</p>
+        </div>
+    </div>
+    <script src='../../Controller/main.js'></script>
+    <script src='../../Controller/option.js'></script>
+    <script src='../../Controller/theme.js'></script>
+
 </section>  
 
 
-
+    
 </body>
 </html>
