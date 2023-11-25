@@ -1,52 +1,9 @@
 
 
 h1{
-    margin-bottom: 30px;
-    background-color: goldenrod ;
+    /* margin-bottom: 30px; */
+    background-color: rgb(135, 110, 217) ;
 }
 
 
-/* body {
-    margin: 40px;
-  } */
-  
-/* .wrapper {
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-gap: 10px;
-    background-color: #fff;
-    color: #444;
-}
 
-  .box {
-    background-color: #444;
-    color: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
-  } */
-
-
-
-.list_of_graphs {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-    /* background-color: #fff;
-    color: #444; */
-    /* grid-template-rows: 10px, 10px, 10px; */
-    background-color: brown;
-    margin: 50px;
-    padding: 40px;
-    height: 650px;
-}
-
-.graph{
-    background-color: beige;
-    text-align: center;
-    /* vertical-align: middle; */
-    width: 500px;
-    height: 300px;
-    line-height: 300px;
-    /* border: 0.2em solid orangered; */
-}

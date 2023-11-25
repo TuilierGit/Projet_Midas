@@ -1,0 +1,22 @@
+h1{
+    margin-bottom: 30px;
+}
+
+.list_of_graphs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: var(--ma-couleur-secondaire-theme1);
+    border: 0.2em solid #5a5a5a;
+    margin: 50px;
+    padding: 40px;
+    height: 650px;
+}
+
+.graph{
+    background-color: beige;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    line-height: 300px;
+}

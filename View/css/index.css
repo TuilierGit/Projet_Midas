@@ -5,7 +5,7 @@
    float: right;
    width: 1000px;
    margin-right: 380px; 
-   height: 900px;
+   height: 920px;
    padding: 0px;
    background-color: var(--ma-couleur-tertiaire-theme1);
    border-right: 0.15em solid rgb(97, 97, 97);
@@ -32,27 +32,25 @@
    float: left;
    /* width: 30%; */
    width: 15%;
-   height: 900px;
+   height: 920px;
    border-right: 0.15em solid rgb(97, 97, 97);
    border-left: 0.15em solid rgb(97, 97, 97);
 }
 
 .navigation_top{
-   /* background-color: rgb(0, 255, 106); */
-   /* background-color: #282828; */
    background-color: var(--ma-couleur-secondaire-theme1);
    height: 150px;
 }
 
 .navigation_bot{
+   text-align: center;
+   padding-top: 40px;
    border-top: 0.2em solid #5a5a5a;
-   height: 700px;
+   height: 735px;
    background-color: var(--ma-couleur-secondaire-theme1);
 }
 
 .navigation_bot div{
-   /* width: 300px ;
-   margin: 50px; */
    margin: 15px;
    padding: 20px;
    text-align: center;
@@ -79,62 +77,63 @@
    /* background-color: bisque; */
 }
 
+
+/* ///////////////////////////////// */
+
  .box{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   /* display: flex;
-   justify-content: center;
+   /* display: flex; */
+   /* justify-content: center;
    align-items: center; */
-   /* text-align: center; */
-   /* vertical-align: middle; */
-   /* background-color: #1c1e20; */
    background-color: var(--ma-couleur-principale-theme1);
-   /* border: 0.2em solid goldenrod; */
    border: 0.2em solid var(--ma-couleur-element_2-theme1);
    border-radius: 20px;    
    overflow: hidden; 
-
 }
 
 .box a{
    text-decoration: none;
 }
 
-.box div{
-   text-align: center;
-   /* display: flex; */
-   /* justify-content: center;
-   align-items: center; */
+.box_pdg{
+   /* background-color: red; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 325px;
+   width: 406px;
 }
 
-.box:hover {
+.box_pdg a{
+   text-decoration: none;
+}
+
+.box_pdg div{
+   text-align: center;
+}
+
+.box_pdg:hover {
    opacity: 0.8;
 }
 
 
-.box h3{
-   /* color: goldenrod; */
+.box_pdg h3{
    color: var(--ma-couleur-element_1-theme1);
  }
  
  
-.box p{
+.box_pdg p{
    color: white;
  }
 
-
- /* .box img {
-   position: relative;
-   left: -20px; 
-   width: 115%; 
-   height: auto; 
-} */
+/* ///////////////////////////////// */
 
 
 .extra{
+   position: absolute;
+   z-index: 2;
    clear: both;
    width: 100%;
+   top: 948px;
    background-color: rgb(23,00,46);
 }
 

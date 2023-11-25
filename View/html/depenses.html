@@ -3,71 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href='../css/ratios_principaux.css'>
+    <link rel='stylesheet' href='../css/depenses.css'>
+    <link rel='stylesheet' href='../css/product.css'>
     <link rel='stylesheet' href='../css/style.css'>
     <title>Document</title>
 </head>
 <body>
     <header>
         <nav>
-            <a href="index.html" class="lien-icone">
-                <img src="../pictures/logo.png" alt="Logo Tuilier Thomas" class="logo-ttuilier"/>
-            </a>
             <div>
                 <a href="index.html">Accueil</a>
-                <a href="a-propos.html">À propos</a>
-                <a href="projets.html">Projets</a>
+                <a href="a_propos.html">À propos</a>
             </div>
         </nav>
     </header>
-    <h1>Dépenses</h1>
-    
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <canvas id="stackedAreaChart" width="50" height="50"></canvas>
-    <script>
-        var ctx = document.getElementById('stackedAreaChart').getContext('2d');
-        var stackedAreaChart = new Chart(ctx, {
-          type: 'line',
-          data: {
-            labels: ['Label 1', 'Label 2', 'Label 3'],
-            datasets: [{
-              label: 'Série 1',
-              data: [10, 20, 30],
-              backgroundColor: 'rgba(75, 192, 192, 0.2)',
-              borderColor: 'rgba(75, 192, 192, 1)',
-              borderWidth: 1,
-              fill: true
-            }, {
-              label: 'Série 2',
-              data: [15, 25, 35],
-              backgroundColor: 'rgba(255, 99, 132, 0.2)',
-              borderColor: 'rgba(255, 99, 132, 1)',
-              borderWidth: 1,
-              fill: true
-            }, {
-              label: 'Série 3',
-              data: [20, 30, 40],
-              backgroundColor: 'rgba(255, 206, 86, 0.2)',
-              borderColor: 'rgba(255, 206, 86, 1)',
-              borderWidth: 1,
-              fill: true
-            }]
-          },
-          options: {
-            scales: {
-              x: {
-                beginAtZero: true
-              },
-              y: {
-                beginAtZero: true
-              }
-            }
-          }
-        });
-      </script>
+    <section>
+      <h1>Dépenses</h1>
 
+      <div class="list_of_graphs">
+        <div class="graph" id="graph_1">Graphique 1 </div>
+        <div class="graph" id="graph_2">Graphique 2 </div>
+        <div class="graph" id="graph_3">Graphique 3 </div>
+        <div class="graph" id="graph_4">Graphique 4 </div>
+        <div class="graph" id="graph_5">Graphique 5 </div>
+        <div class="graph" id="graph_6">Graphique 6 </div> 
+      </div>
+  
+    </section>
 
-    gyzdqgf
 </body>
 </html>
