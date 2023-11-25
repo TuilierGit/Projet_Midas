@@ -41,6 +41,8 @@ body {
 
 a{
     text-decoration:none;
+    color : white; 
+    padding-right: 20px;
 }
 
 a:hover {
@@ -72,6 +74,10 @@ footer {
     position: relative;
     background-color: #282828;
     padding: 10px 50px;
+}
+
+header{
+   border-bottom: 0.15em solid rgb(97, 97, 97);
 }
 
 
@@ -118,9 +124,9 @@ footer {
     right: 0;
     padding: 10px;
     width: 50px;
-    height: 960px;
-    padding: 0px;
+    height: 940px;
     background-color: var(--ma-couleur-tertiaire-theme1);
+    border-left: 0.15em solid rgb(97, 97, 97);
 }
 
 .help_page.visible {
