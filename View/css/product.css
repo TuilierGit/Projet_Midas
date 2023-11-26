@@ -6,8 +6,8 @@ h1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
-    background-color: var(--ma-couleur-secondaire-theme1);
-    border: 0.2em solid #5a5a5a;
+    background-color: var(--ma-couleur-secondaire-mon-theme);
+    border: 0.2em solid var(--ma-couleur-bordure-mon-theme);
     margin: 50px;
     padding: 40px;
     height: 650px;

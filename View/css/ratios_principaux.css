@@ -2,7 +2,7 @@
 
 h1{
     /* margin-bottom: 30px; */
-    background-color: rgb(135, 110, 217) ;
+    background-color: var(--ma-couleur-ratios-mon-theme) ;
 }
 
 

@@ -1,64 +1,33 @@
+function changer_mon_theme(new_theme) {
+  document.documentElement.style.setProperty('--ma-couleur-principale-mon-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-principale-' + new_theme).trim());
+  document.documentElement.style.setProperty('--ma-couleur-secondaire-mon-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-secondaire-' + new_theme).trim());
+  document.documentElement.style.setProperty('--ma-couleur-tertiaire-mon-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-tertiaire-' + new_theme).trim());
 
-document.getElementById('changer-theme').addEventListener('click',
-  function() {
-    var body = document.body;
-    if (body.classList.contains('thème-1')) {
-      body.classList.remove('thème-1');
-      body.classList.add('thème-2');
-    } else {
-      body.classList.remove('thème-2');
-      body.classList.add('thème-1');
-    }
+  document.documentElement.style.setProperty('--ma-couleur-bordure-mon-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-bordure-' + new_theme).trim());
+
+  document.documentElement.style.setProperty('--ma-couleur-patrimoine-mon-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-patrimoine-' + new_theme).trim());
+  document.documentElement.style.setProperty('--ma-couleur-depenses-mon-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-depenses-' + new_theme).trim());
+  document.documentElement.style.setProperty('--ma-couleur-ratios-mon-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-ratios-' + new_theme).trim());
+  document.documentElement.style.setProperty('--ma-couleur-revenus-mon-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-revenus-' + new_theme).trim());
+
+  document.documentElement.style.setProperty('--ma-couleur-element_1-mon-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-element_1-' + new_theme).trim());
+  document.documentElement.style.setProperty('--ma-couleur-element_2-mon-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-element_2-' + new_theme).trim());
+
+  localStorage.setItem('theme', new_theme);
+}
+
+
+function charger_theme_enregistre() {
+  const themeEnregistre = localStorage.getItem('theme');
+  if (themeEnregistre) {
+    changer_mon_theme(themeEnregistre);
   }
-);
+}
 
-// document.getElementById('changer-theme').addEventListener('click', 
+charger_theme_enregistre();
 
-// function() {
-//     var body = document.body;
-//     if (body.classList.contains('thème-1')) {
-//       body.classList.remove('thème-1');
-//       body.classList.add('thème-2');
-//     } else {
-//       body.classList.remove('thème-2');
-//       body.classList.add('thème-1');
-//     }
-  
-//     // Appliquer le même thème aux enfants de body
-//     var enfantsBody = body.querySelectorAll('*');
-//     enfantsBody.forEach(function(enfant) {
-//       if (enfant.classList) {
-//         if (body.classList.contains('thème-1')) {
-//           enfant.classList.remove('thème-1');
-//           enfant.classList.add('thème-2');
-//         } else {
-//           enfant.classList.remove('thème-2');
-//           enfant.classList.add('thème-1');
-//         }
-//       }
-//     });
-//   });
+document.getElementById('changer-theme-1').addEventListener('click', function () { changer_mon_theme('theme1'); });
+document.getElementById('changer-theme-2').addEventListener('click', function () { changer_mon_theme('theme2'); });
+document.getElementById('changer-theme-dark_blue').addEventListener('click', function () { changer_mon_theme('dark_blue'); });
 
 
-// document.getElementById('changer-theme').addEventListener('click', function() {
-//     var body = document.body;
-//     if (body.classList.contains('thème-1')) {
-//       body.classList.remove('thème-1');
-//       body.classList.add('thème-2');
-//     } else {
-//       body.classList.remove('thème-2');
-//       body.classList.add('thème-1');
-//     }
-//   });
-
-
-// document.getElementById('changer-theme').addEventListener('click', function() {
-//     var box = document.getElementById('box');
-//     if (box.classList.contains('thème-1')) {
-//       box.classList.remove('thème-1');
-//       box.classList.add('thème-2');
-//     } else {
-//       box.classList.remove('thème-2');
-//       box.classList.add('thème-1');
-//     }
-//   });

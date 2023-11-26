@@ -7,17 +7,17 @@
    margin-right: 380px; 
    height: 920px;
    padding: 0px;
-   background-color: var(--ma-couleur-tertiaire-theme1);
-   border-right: 0.15em solid rgb(97, 97, 97);
-   border-left: 0.15em solid rgb(97, 97, 97);
+   background-color: var(--ma-couleur-tertiaire-mon-theme);
+   border-right: 0.15em solid var(--ma-couleur-bordure-mon-theme);
+   border-left: 0.15em solid var(--ma-couleur-bordure-mon-theme);
    /* background-color: aqua; */
 }
 
 
 .wrapper h1{
    margin: 15px;
-   color: var(--ma-couleur-element_1-theme1);
-   /* background-color: var(--ma-couleur-secondaire-theme1); */
+   color: var(--ma-couleur-element_1-mon-theme);
+   /* background-color: var(--ma-couleur-secondaire-mon-theme); */
    font-size: 4em;
    text-shadow: 4px 3px 0px #000000, 9px 8px 0px rgba(0,0,0,0.15);
 }
@@ -33,21 +33,21 @@
    /* width: 30%; */
    width: 15%;
    height: 920px;
-   border-right: 0.15em solid rgb(97, 97, 97);
-   border-left: 0.15em solid rgb(97, 97, 97);
+   border-right: 0.15em solid var(--ma-couleur-bordure-mon-theme);
+   border-left: 0.15em solid var(--ma-couleur-bordure-mon-theme);
 }
 
 .navigation_top{
-   background-color: var(--ma-couleur-secondaire-theme1);
+   background-color: var(--ma-couleur-secondaire-mon-theme);
    height: 150px;
 }
 
 .navigation_bot{
    text-align: center;
    padding-top: 40px;
-   border-top: 0.2em solid #5a5a5a;
+   border-top: 0.15em solid var(--ma-couleur-bordure-mon-theme);
    height: 735px;
-   background-color: var(--ma-couleur-secondaire-theme1);
+   background-color: var(--ma-couleur-secondaire-mon-theme);
 }
 
 .navigation_bot div{
@@ -56,8 +56,8 @@
    text-align: center;
    background-color: #1c1e20;
 
-   color: var(--ma-couleur-element_1-theme1);
-   border: 0.2em solid var(--ma-couleur-element_2-theme1);
+   color: var(--ma-couleur-element_1-mon-theme);
+   border: 0.2em solid var(--ma-couleur-element_2-mon-theme);
    /* color: goldenrod;
    border: 0.2em solid goldenrod; */
    border-radius: 20px;    
@@ -84,8 +84,8 @@
    /* display: flex; */
    /* justify-content: center;
    align-items: center; */
-   background-color: var(--ma-couleur-principale-theme1);
-   border: 0.2em solid var(--ma-couleur-element_2-theme1);
+   background-color: var(--ma-couleur-bouton-mon-theme);
+   border: 0.2em solid var(--ma-couleur-element_2-mon-theme);
    border-radius: 20px;    
    overflow: hidden; 
 }
@@ -117,7 +117,7 @@
 
 
 .box_pdg h3{
-   color: var(--ma-couleur-element_1-theme1);
+   color: var(--ma-couleur-element_1-mon-theme);
  }
  
  
