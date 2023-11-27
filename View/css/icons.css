@@ -1,0 +1,319 @@
+/* Icon Menu */
+
+.gg-menu {
+    transform: scale(var(--ggs,1))
+   }
+   
+   .gg-menu,
+   .gg-menu::after,
+   .gg-menu::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 3px;
+    background: var(--icon-color);
+   }
+   
+   .gg-menu::after,
+   .gg-menu::before {
+    content: "";
+    position: absolute;
+    top: -6px
+   }
+   
+   .gg-menu::after {
+    top: 6px
+   } 
+
+/* Icon Add */
+
+   .gg-add {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    transform: scale(var(--ggs,1));
+    border-radius: 22px;
+    border-color:var(--icon-color);
+   }
+   
+   .gg-add::after,
+   .gg-add::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background: var(--icon-color);
+    border-radius: 5px;
+    top: 8px;
+    left: 4px
+   }
+   
+   .gg-add::after {
+    width: 2px;
+    height: 10px;
+    top: 4px;
+    left: 8px
+   } 
+
+/* Icon Add-r */
+
+
+   .gg-add-r {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    transform: scale(var(--ggs,1));
+    border-radius: 4px
+   }
+   
+   .gg-add-r::after,
+   .gg-add-r::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background: var(--icon-color);
+    border-radius: 5px;
+    top: 8px;
+    left: 4px
+   }
+   
+   .gg-add-r::after {
+    width: 2px;
+    height: 10px;
+    top: 4px;
+    left: 8px
+   } 
+
+/* Icon arrow left */
+
+   .gg-corner-up-left {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px
+   }
+   .gg-corner-up-left::after,
+   .gg-corner-up-left::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 3px
+   }
+   .gg-corner-up-left::after {
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    transform: rotate(45deg);
+    top: 3px
+   }
+   .gg-corner-up-left::before {
+    width: 16px;
+    height: 12px;
+    border-top-right-radius: 4px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    top: 6px
+   } 
+
+/* Icon arrow right */
+
+   .gg-corner-up-right {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px
+   }
+   .gg-corner-up-right::after,
+   .gg-corner-up-right::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    right: 3px
+   }
+   .gg-corner-up-right::after {
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    top: 3px
+   }
+   .gg-corner-up-right::before {
+    width: 16px;
+    height: 12px;
+    border-top-left-radius: 4px;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    top: 6px
+   } 
+
+/* Icon home */
+
+   .gg-home {
+    background:
+    linear-gradient(to left,
+    var(--icon-color) 5px,transparent 0)
+    no-repeat 0 bottom/4px 2px,
+    linear-gradient(to left,
+    var(--icon-color) 5px,transparent 0)
+    no-repeat right bottom/4px 2px;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 14px;
+    border: 2px solid;
+    border-top: 0;
+    border-bottom: 0;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-bottom: -2px
+    }
+   
+    .gg-home::after,
+    .gg-home::before {
+        
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+    }
+   
+    .gg-home::before {
+        
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-top-left-radius: 4px;
+    transform: rotate(45deg);
+    top: -5px;
+    border-radius: 3px;
+    width: 14px;
+    height: 14px;
+    left: 0
+    }
+   
+    .gg-home::after {
+        
+    width: 8px;
+    height: 10px;
+    border: 2px solid;
+    border-radius: 100px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+    left: 3px;
+    bottom: 0
+    } 
+
+/* Icon add-file */
+
+.gg-file-add {
+    /* background: var(--icon-color); */
+    background:
+    linear-gradient(to bottom,
+    var(--icon-color) 5px,transparent 0)
+    
+    no-repeat 2px 9px/6px 2px;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 14px;
+    height: 16px;
+    border: 2px solid transparent;
+    border-right: 0;
+    border-top: 0;
+    box-shadow: 0 0 0 2px;
+    border-radius: 1px;
+    border-top-right-radius: 4px;
+    overflow: hidden
+    }
+   
+    .gg-file-add::after,
+    .gg-file-add::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    height: 6px
+    }
+   
+    .gg-file-add::before {
+    background: var(--icon-color);
+    left: 4px;
+    width: 2px;
+    top: 7px
+    }
+   
+    .gg-file-add::after {
+        
+    width: 6px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    right: -1px;
+    top: -1px
+    } 
+
+/* Icon Profil */
+
+.gg-profile,
+.gg-profile::after,
+.gg-profile::before {
+    
+ display: block;
+ box-sizing: border-box;
+ border: 2px solid;
+ border-radius: 100px
+}
+
+.gg-profile {
+    border-color: var(--icon-color);
+ overflow: hidden;
+ transform: scale(var(--ggs,1));
+ width: 22px;
+ height: 22px;
+ position: relative
+}
+
+.gg-profile::after,
+.gg-profile::before {
+    border-color: var(--icon-color);
+ content: "";
+ position: absolute;
+ top: 2px;
+ left: 5px;
+ width: 8px;
+ height: 8px
+}
+
+.gg-profile::after {
+    border-color: var(--icon-color);
+ border-radius: 200px;
+ top: 11px;
+ left: 0px;
+ width: 18px;
+ height: 18px
+} 

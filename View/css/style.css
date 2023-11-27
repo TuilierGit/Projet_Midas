@@ -1,6 +1,8 @@
 
 :root {
 
+    --icon-color: #ff0000;
+
     /* theme clair */
 
     --ma-couleur-principale-theme1: #151515;;
@@ -154,11 +156,32 @@ color: #f9f8ff;
 }
 
 
+/* header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; 
+} */
 header,
 footer {
-    position: relative;
+    position: fixed;
+    width: 100%;
     background-color: #282828;
     padding: 10px 50px;
+    z-index: 1000; 
 }
 
 header{
@@ -167,6 +190,7 @@ header{
 
 
 .maPage{
+    padding-top: 40px;
     display: block;
     flex-direction: row;
     /* background-color: rgb(169, 169, 29); */
@@ -204,6 +228,8 @@ header{
 
 
 .options_bar{
+    margin-top: 50px;
+    padding-top:40px ;
     position: absolute;
     top: 0;
     right: 0;
@@ -272,3 +298,14 @@ margin-left: 30px;
     width: 15%;
     height: auto;
 } */
+
+.icons-header-right{
+    position: relative;
+    left: 200px;
+    display: grid;
+    grid-template-columns:  1fr 1fr ;
+   /* grid-template-rows: 1fr 1fr; */
+   gap: 5px; 
+    /* flex-direction: column-reverse; */
+    
+}
