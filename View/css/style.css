@@ -184,13 +184,19 @@ footer {
     z-index: 1000; 
 }
 
+
+footer{
+    border-top: 0.15em solid var(--ma-couleur-bordure-mon-theme);
+    bottom: 0;
+}
+
 .app_header{
    border-bottom: 0.15em solid var(--ma-couleur-bordure-mon-theme);
 }
 
 .app_header-globalBar{
     background-color: #34e0e9;
-    width: 1750px;
+    width: 1800px;
 }
 
 
@@ -200,7 +206,6 @@ footer {
 
 .icons-header-left{
     background-color: var(--ma-couleur-tertiaire-mon-theme);
-
     float: left;
     padding: 8px 16px;
 }
@@ -209,7 +214,6 @@ footer {
 
 .icons-header-right{
     background-color: var(--ma-couleur-tertiaire-mon-theme);
-    
     float: right;
     padding: 8px 16px;
 }

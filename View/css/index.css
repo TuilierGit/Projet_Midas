@@ -2,15 +2,16 @@
     background-color: grey;
  } */
  .wrapper{
+   margin-top: 60px;
    float: right;
    width: 1000px;
    margin-right: 380px; 
    height: 920px;
    padding: 0px;
-   background-color: var(--ma-couleur-tertiaire-mon-theme);
+   /* background-color: var(--ma-couleur-tertiaire-mon-theme);
    border-right: 0.15em solid var(--ma-couleur-bordure-mon-theme);
-   border-left: 0.15em solid var(--ma-couleur-bordure-mon-theme);
-   /* background-color: aqua; */
+   border-left: 0.15em solid var(--ma-couleur-bordure-mon-theme); */
+
 }
 
 
@@ -33,21 +34,22 @@
    /* width: 30%; */
    width: 15%;
    height: 920px;
-   border-right: 0.15em solid var(--ma-couleur-bordure-mon-theme);
-   border-left: 0.15em solid var(--ma-couleur-bordure-mon-theme);
+   /* border-right: 0.15em solid var(--ma-couleur-bordure-mon-theme);
+   border-left: 0.15em solid var(--ma-couleur-bordure-mon-theme); */
 }
 
 .navigation_top{
    background-color: var(--ma-couleur-secondaire-mon-theme);
+   border: 0.15em solid var(--ma-couleur-bordure-mon-theme);
    height: 150px;
 }
 
 .navigation_bot{
    text-align: center;
    padding-top: 40px;
-   border-top: 0.15em solid var(--ma-couleur-bordure-mon-theme);
+   /* border-top: 0.15em solid var(--ma-couleur-bordure-mon-theme); */
    height: 735px;
-   background-color: var(--ma-couleur-secondaire-mon-theme);
+   /* background-color: var(--ma-couleur-secondaire-mon-theme); */
 }
 
 .navigation_bot div{
