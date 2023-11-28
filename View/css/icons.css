@@ -1,7 +1,7 @@
 /* Icon Menu */
 
 .gg-menu {
-    transform: scale(var(--ggs,1))
+    transform: scale(var(--ggs,2))
    }
    
    .gg-menu,
@@ -279,6 +279,8 @@
 
 /* Icon Profil */
 
+
+
 .gg-profile,
 .gg-profile::after,
 .gg-profile::before {
@@ -292,7 +294,7 @@
 .gg-profile {
     border-color: var(--icon-color);
  overflow: hidden;
- transform: scale(var(--ggs,1));
+ transform: scale(var(--ggs,1.5));
  width: 22px;
  height: 22px;
  position: relative
@@ -317,3 +319,13 @@
  width: 18px;
  height: 18px
 } 
+
+
+.material-symbols-outlined {
+   color: whitesmoke;
+   font-variation-settings:
+   'FILL' 0,
+   'wght' 400,
+   'GRAD' 0,
+   'opsz' 24
+}
