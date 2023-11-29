@@ -180,7 +180,7 @@ footer {
     position: fixed;
     width: 100%;
     background-color: #282828;
-    padding: 0px 50px;
+    padding: 0px 0px;
     z-index: 1000; 
 }
 
@@ -195,27 +195,35 @@ footer{
 }
 
 .app_header-globalBar{
-    background-color: #34e0e9;
-    width: 1800px;
+    /* background-color: #34e0e9; */
+    width: 99%;
+    text-align: center;
 }
 
 
 .app_header-globalBar a{
     text-decoration: none;
+    padding: 0px 0px;
 }
 
 .icons-header-left{
-    background-color: var(--ma-couleur-tertiaire-mon-theme);
+    /* background-color: var(--ma-couleur-tertiaire-mon-theme); */
     float: left;
-    padding: 8px 16px;
+    padding: 7px 7px;
+    display: flex;
+    flex-direction: row;
+}
+
+.icons-header-left h2{
+    padding-left:25px ;
+    size: 4px;
 }
 
 
-
 .icons-header-right{
-    background-color: var(--ma-couleur-tertiaire-mon-theme);
+    /* background-color: var(--ma-couleur-tertiaire-mon-theme); */
     float: right;
-    padding: 8px 16px;
+    padding: 7px 7px;
 }
 
 span{
