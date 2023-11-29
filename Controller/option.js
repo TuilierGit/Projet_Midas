@@ -1,18 +1,27 @@
 
-function show(){
-    const help_menu = document.getElementById("option__help");
-    if (help_menu.classList.contains("visible")){
-        help_menu.classList.remove("visible");
+function show(my_page){
+    const page = document.getElementById(my_page);
+    if (page.classList.contains("visible")){
+        page.classList.remove("visible");
     } else {
-        help_menu.classList.add("visible");
+        page.classList.add("visible");
     }
     
 }
 
-const b = document.getElementById('help_button');
-b.addEventListener('click',show);
+const b = document.getElementById('option_button');
+
+b.addEventListener('click', function (){
+    show("fond_sombre");
+    show("option__page");} 
+);
+
+document.getElementById('fond_sombre').addEventListener('click',function(){
+    show("fond_sombre");
+    show("option__page");
+});
 
 
-const plus = document.getElementById("plus_dans_html");
+// const plus = document.getElementById("plus_dans_html");
 
-plus.addEventListener('click',show);
+// plus.addEventListener('click',show);
