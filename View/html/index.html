@@ -6,6 +6,7 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel='stylesheet' href='../css/theme.css'>
     <link rel='stylesheet' href='../css/style.css'>
     <link rel='stylesheet' href='../css/index.css'>
     <link rel='stylesheet' href='../css/icons.css'>
@@ -21,26 +22,26 @@
     <header class="app_header">
         <div class="app_header-globalBar">
 
-                <div class="icons-header-left">
-                    <!-- <a href="index.html"><span class="material-symbols-outlined">home</span></a> -->
-                    <a href="a_propos.html"><span class="material-symbols-outlined"> menu </span></a>
-                    <span class="material-symbols-outlined">arrow_back</span>
-                    <span class="material-symbols-outlined">arrow_forward</span>
-                    <h2>Mes comptes</h2>
+            <div class="icons-header-left">
+                <!-- <a href="index.html"><span class="material-symbols-outlined">home</span></a> -->
+                <a href="a_propos.html"><span class="material-symbols-outlined"> menu </span></a>
+                <span class="material-symbols-outlined">arrow_back</span>
+                <span class="material-symbols-outlined">arrow_forward</span>
+                <h2>Mes comptes</h2>
+            </div>
+            
+            <div class="icons-header-right">
+                <!-- <a><span class="material-symbols-outlined">search</span></a> -->
+                <!-- <a><span class="material-symbols-outlined">settings</span></a> -->
+                <div>
+                    <span class="material-symbols-outlined" id="toggle_on">toggle_on</span>
+                    <span class="material-symbols-outlined" id="toggle_off">toggle_off</span>
                 </div>
                 
-                <div class="icons-header-right">
-                    <!-- <a><span class="material-symbols-outlined">search</span></a> -->
-                    <!-- <a><span class="material-symbols-outlined">settings</span></a> -->
-                    <div>
-                        <span class="material-symbols-outlined" id="toggle_on">toggle_on</span>
-                        <span class="material-symbols-outlined" id="toggle_off">toggle_off</span>
-                    </div>
-                    
-                    <div id="option_button"><span class="material-symbols-outlined">more_horiz</span></div>
-                    <div><span class="material-symbols-outlined">output</span></div>
-                    <!-- <span class="material-symbols-outlined">favorite</span> -->
-                </div>
+                <div id="option_button"><span class="material-symbols-outlined">more_horiz</span></div>
+                <div><span class="material-symbols-outlined">output</span></div>
+                <!-- <span class="material-symbols-outlined">favorite</span> -->
+            </div>
 
                 
         </div>
@@ -51,6 +52,83 @@
     
 <section class="maPage">
 
+    <div class="content">
+        <div class="content__top_bar">
+            <div class="box" id="content__top_bar__element-1">
+                <span class="material-symbols-outlined rotate-icon">
+                    arrow_back_ios
+                    </span>
+                <span class="material-symbols-outlined">trending_up</span>
+                Patrimoine net
+            </div>
+            <div class="box" id="content__top_bar__element-2">
+                <span class="material-symbols-outlined">
+                    bar_chart
+                    </span>
+                Revenus
+            </div>
+            <div class="box" id="content__top_bar__element-3">
+                <span class="material-symbols-outlined">
+                    trending_down
+                    </span>
+                Dépenses
+            </div>
+            <div class="box" id="content__top_bar__element-4">
+                <span class="material-symbols-outlined">
+                    query_stats
+                    </span>
+                Taux d'épargne
+            </div>
+        </div>
+
+        <div class="content__middle-1">
+            <div class="box" id="content__middle-1__element-1">
+                <h2>Faire un rapport</h2>
+
+                <p>Pour récuperer vos informations :</p>
+                <a class="bn31" href="/"><span class="bn31span">Mois</span></a>
+                <a class="bn31" href="/"><span class="bn31span">Global</span></a>
+
+                <p>Pour personnaliser vos rapports :</p>
+                <div>
+                    <h3>Configurer les rapports</h3>
+                </div>
+            </div>
+
+            <div class="box" id="content__middle-1__element-2">
+                Revenus
+            </div>
+
+            <div class="box" id="content__middle-1__element-3">
+                <div class="sous_box">
+                    test 1
+                </div>
+    
+    
+                <div class="sous_box">
+                    test 2
+                </div>
+    
+    
+                <div class="sous_box" >
+                    test 3
+                </div>
+    
+    
+                <div class="sous_box">
+                    test 4
+                </div>
+            </div>
+        </div>
+
+        <div class="content__middle-2">
+            <div class="box" id="content__middle-2__element-1">Patrimoine net</div>
+        </div>
+
+
+    </div>
+
+
     <div class="wrapper">
 
         <h1>Mes Comptes</h1>
@@ -59,94 +137,52 @@
         <div class="product_list">
 
             <div class="box">
-                <!-- <div class="page_ratios_principaux"> -->
-                    <a href="ratios_principaux.html">
-                        <div class="box_pdg">
-                    
-                            <div class="product__info">
-                                <h3>Ratios Principaux</h3>
-                                <p>Visualisation de mon patrimoine<br>et de mon épargne</p>
-                            </div>
-                            <!-- <div class="box_pdg"> -->
-                                
-                            
-                                <!-- <div class="product__image">
-                                    <img src="../products/formations/formation_jody_cavalie/pictures/logo.jpg">
-                                </div> -->
-
-                                <!-- <div class="product__info">
-                                    
-                                </div>
-                            -->
-                            <!-- </div> -->
+                <a href="ratios_principaux.html">
+                    <div class="box_pdg">
+                
+                        <div class="product__info">
+                            <h3>Ratios Principaux</h3>
+                            <p>Visualisation de mon patrimoine<br>et de mon épargne</p>
                         </div>
-                    <!-- </div> -->
+                    </div>
                 </a>
             </div>
 
 
             <div class="box">
-                <!-- <div class="page_composition_du_patrimoine"> -->
-                    <a href="composition_du_patrimoine.html">
-                        <div class="box_pdg">
-                            
-                            <!-- <div class="product__image">
-                                <img src="../products/formations/formation_jody_cavalie/pictures/logo.jpg">
-                            </div> -->
-
-                            <div class="product__info">
-                                <h3>Composition du Patrimoine</h3>
-                                <p>Visualisation de la composition du patrimoine</p>
-                            </div>
-
+                <a href="composition_du_patrimoine.html">
+                    <div class="box_pdg">
+                        <div class="product__info">
+                            <h3>Composition du Patrimoine</h3>
+                            <p>Visualisation de la composition du patrimoine</p>
                         </div>
-                    </a>
-                <!-- </div> -->
+
+                    </div>
+                </a>
             </div>
 
 
             <div class="box" >
-                <!-- <div class="page_revenus"> -->
                     <a href="revenus.html">
                         <div class="box_pdg">
-                        
-                    
-                        <!-- <div class="product__image">
-                            <img src="../products/formations/formation_jody_cavalie/pictures/logo.jpg">
-                        </div> -->
-
                         <div class="product__info">
                             <h3>Revenus</h3>
                             <p>Visualisation de mes revenus</p>
-
                         </div>
-
                         </div>
                     </a>
-                <!-- </div> -->
             </div>
 
 
             <div class="box">
-                <!-- <div class="page_depenses"> -->
-                    <a href="depenses.html">
-                        <div class="box_pdg">
-                        
-                    
-                        <!-- <div class="product__image">
-                            <img src="../products/formations/formation_jody_cavalie/pictures/logo.jpg">
-                        </div> -->
-
-                        <div class="product__info">
-                            <h3>Dépenses</h3>
-                            <p>Visualisation de mes dépenses</p>
-
-                        </div>
-
-                        
-                        </div>
-                    </a>
-                <!-- </div> -->
+                <a href="depenses.html">
+                    <div class="box_pdg">
+                    <div class="product__info">
+                        <h3>Dépenses</h3>
+                        <p>Visualisation de mes dépenses</p>
+                    </div>
+                    </div>
+                </a>
             </div>
 
 

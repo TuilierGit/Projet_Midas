@@ -1,4 +1,16 @@
+
+.rotate-icon {
+   display: inline-block;
+   transform: rotate(-45deg); /* Vous pouvez ajuster l'angle de rotation selon vos besoins */
+}
+
+
+
 /* Icon Menu */
+
+
+
+
 
 .gg-menu {
     transform: scale(var(--ggs,2))
