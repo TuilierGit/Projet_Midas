@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Manrope', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     background-color: var(--ma-couleur-principale-mon-theme);
 }
 
@@ -42,6 +42,7 @@ color: #f9f8ff;
 }
 
 
+
 /* header {
     background-color: #333;
     color: #fff;
@@ -66,7 +67,7 @@ footer {
     position: fixed;
     width: 100%;
     background-color: var(--ma-couleur-secondaire-mon-theme);
-    padding: 0px 0px;
+    padding: 7px 0px;
     z-index: 100; 
 }
 
@@ -138,7 +139,7 @@ footer{
 
 
 .maPage{
-    padding-top: 40px;
+    padding-top: 50px;
     display: block;
     flex-direction: row;
     /* background-color: rgb(169, 169, 29); */
@@ -267,13 +268,60 @@ margin-left: 30px;
 
 
 
+ .bn31 {
+    background-image: linear-gradient(to right, var(--secondary-themeNuit) 0%, var(--primary-themeNuit) 100%);
+    border-radius: 40px;
+    
+    /* box-sizing: border-box; */
+    color: var(--primary-themeNuit);
+    /* display: block;  */
+    height: 50px;
+    font-size: 1.4em;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    align-items: center;
+    width: 7em;
+    z-index: 2;
+    /* justify-content: center; */
+  } 
 
-.bn31 {
-    background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
+  
+
+
+  .bn31 span{
+    
+    border: 0.2em solid var(--primary-themeNuit);
+  }
+
+  .bn31:hover {
+    color: #fff;
+  }
+  
+  .bn31 .bn31span {
+    align-items: center;
+    
+    background: var(--dark-themeNuit);
+    border-radius: 40px;
+    display: block;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ;
+    width: 50%;
+  }
+  
+  .bn31:hover .bn31span {
+    background: linear-gradient(to right, var(--secondary-themeNuit) 0%, var(--primary-themeNuit) 100%);
+    background: transparent;
+  }  
+
+
+
+  /* .bn31 {
+    background-image: linear-gradient(to right, var(--secondary-themeNuit) 0%, var(--primary-themeNuit) 100%);
     border-radius: 40px;
     box-sizing: border-box;
-    color: #00a84f;
-    display: block;
+    color: var(--primary-themeNuit);
     height: 50px;
     font-size: 1.4em;
     padding: 4px;
@@ -281,23 +329,22 @@ margin-left: 30px;
     text-decoration: none;
     width: 7em;
     z-index: 2;
-  }
-  
-  .bn31:hover {
+}
+
+.bn31:hover {
     color: #fff;
-  }
-  
-  .bn31 .bn31span {
-    align-items: center;
-    background: #0e0e10;
+}
+
+.bn31 .bn31span {
+    background: var(--dark-themeNuit);
     border-radius: 40px;
     display: flex;
     justify-content: center;
     height: 100%;
     transition: background 0.5s ease;
     width: 100%;
-  }
-  
-  .bn31:hover .bn31span {
+}
+
+.bn31:hover .bn31span {
     background: transparent;
-  }
+} */
