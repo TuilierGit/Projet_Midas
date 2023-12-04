@@ -14,6 +14,7 @@
     <script src='../../Controller/main.js' defer></script>
     <script src='../../Controller/option.js' defer></script>
     <script src='../../Controller/theme.js' defer></script>
+    <script src='../../Controller/valeurs_importantes.js'></script>
 
 </head>
 
@@ -64,7 +65,7 @@
                 </div>
 
                 <div class="head-box--right">
-                    test €
+                    <script>document.write(get_my_value("patrimoine_net"))</script>€
                 </div>
 
                 <!-- <span class="material-symbols-outlined rotate-icon">
@@ -81,7 +82,7 @@
                     Revenus
                 </div>
                 <div class="head-box--right">
-                    test €
+                    <script>document.write(get_my_value("revenus"))</script>€
                 </div>
             </div>
 
@@ -94,7 +95,7 @@
                     Dépenses
                 </div>
                 <div class="head-box--right">
-                    test €
+                    <script>document.write(get_my_value("depenses"))</script>€
                 </div>
             </div>
 
@@ -107,7 +108,7 @@
                     Taux d'épargne
                 </div>
                 <div class="head-box--right">
-                    test €
+                    <script>document.write(get_my_value("taux_epargne"))</script>€
                 </div>
             </div>
         </div>
@@ -133,7 +134,7 @@
             </div>
 
             <div class="box" id="content__middle-1__element-2">
-                <h2>Revenus</h2>
+                <h2>Mes pages</h2>
                 <div>
                     <a href="ratios_principaux.html">
                         <h3>Ratios Principaux</h3>
