@@ -26,6 +26,59 @@
    
 }
 
+/* .head-box{
+   display: grid;
+    grid-template-rows: 1fr 1fr; 
+} */
+
+.head-box--left-top{
+   position: relative;
+   width: 110px;
+   height: 70%;
+   /* background-color: rgb(18, 41, 33); */
+}
+
+.head-box--left-top span{ 
+   font-size: 80px;
+   font-variation-settings: 'OPSZ' 80;
+   padding-left: 40px;
+}
+
+
+.head-box--left-bottom{
+   position: relative;
+   color: white;
+   
+   /* background-color: blanchedalmond; */
+}
+
+#head-box--patrimoine_net{
+   padding-left: 20px;
+}
+
+#head-box--revenus{
+   padding-left: 40px;
+}
+
+#head-box--depenses{
+   padding-left: 40px;
+}
+
+#head-box--taux_epargne{
+   padding-left: 20px;
+}
+
+.head-box--right{
+   position: relative;
+   color: white;
+   /* background-color: aqua; */
+   width: 230px;
+   top: -70px;
+   right: -190px;
+   font-size: 2.5em;
+   text-align: center;
+
+}
 
 /* ///////////////////////////////////////// */
 
@@ -305,3 +358,5 @@
 #content__middle-1__element-2 div:hover{
    opacity: 0.8;
 }
+
+
