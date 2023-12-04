@@ -9,7 +9,7 @@
 body {
     font-family: 'Manrope', sans-serif;
     font-size: 1.2em;
-    background-color: var(--ma-couleur-principale-mon-theme);
+    background-color: var(--background-my-theme);
 }
 
 a{
@@ -66,7 +66,7 @@ header,
 footer {
     position: fixed;
     width: 100%;
-    background-color: var(--ma-couleur-secondaire-mon-theme);
+    background-color: var(--box-my-theme);
     padding: 7px 0px;
     z-index: 100; 
 }
@@ -269,11 +269,11 @@ margin-left: 30px;
 
 
  .bn31 {
-    background-image: linear-gradient(to right, var(--secondary-themeNuit) 0%, var(--primary-themeNuit) 100%);
+    background-image: linear-gradient(to right, var(--secondary-my-theme) 0%, var(--primary-my-theme) 100%);
     border-radius: 40px;
     
     /* box-sizing: border-box; */
-    color: var(--primary-themeNuit);
+    color: var(--primary-my-theme);
     /* display: block;  */
     height: 50px;
     font-size: 1.4em;
@@ -291,7 +291,7 @@ margin-left: 30px;
 
   .bn31 span{
     
-    border: 0.2em solid var(--primary-themeNuit);
+    border: 0.2em solid var(--primary-my-theme);
   }
 
   .bn31:hover {
@@ -301,7 +301,7 @@ margin-left: 30px;
   .bn31 .bn31span {
     align-items: center;
     
-    background: var(--dark-themeNuit);
+    background: var(--dark-my-theme);
     border-radius: 40px;
     display: block;
     justify-content: center;
@@ -311,7 +311,7 @@ margin-left: 30px;
   }
   
   .bn31:hover .bn31span {
-    background: linear-gradient(to right, var(--secondary-themeNuit) 0%, var(--primary-themeNuit) 100%);
+    background: linear-gradient(to right, var(--secondary-my-theme) 0%, var(--primary-my-theme) 100%);
     background: transparent;
   }  
 

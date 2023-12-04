@@ -1,8 +1,7 @@
 
 :root {
 
-    --icon-color: #ff0000;
-
+    --icon-color: #ffffff;
 
     /* theme nuit */
 
@@ -11,8 +10,8 @@
     --box-themeNuit: #191C24;
     --icon-color-themeNuit: #7216eb;
     --light-themeNuit: #6C7293;
+    --dark-themeNuit:#000000;
     --background-themeNuit: #000000;
-
 
     --ma-couleur-patrimoine-themeNuit: rgb(116, 173, 234);
     --ma-couleur-depenses-themeNuit : rgb(224, 118, 73);
@@ -20,9 +19,25 @@
     --ma-couleur-revenus-themeNuit : rgb(129, 198, 83);
 
 
+    /* theme jour */
+
+    --primary-themeJour: #20c23b;
+    --secondary-themeJour: #0e4f19;
+    --box-themeJour: #9e9e9e;
+    --icon-color-themeJour: #20c23b;
+    --light-themeJour: #363636;
+    --dark-themeJour: #777777;
+    --background-themeJour: #ffffff;
+
+    --ma-couleur-patrimoine-themeJour: rgb(116, 173, 234);
+    --ma-couleur-depenses-themeJour : rgb(224, 118, 73);
+    --ma-couleur-ratios-themeJour : rgb(135, 110, 217);
+    --ma-couleur-revenus-themeJour : rgb(129, 198, 83);
+
+
     /* A enlever */
 
-    --dark-themeNuit: #000000;
+    /* --dark-themeNuit: #000000;
     --ma-couleur-principale-themeNuit: #000000;;
     --ma-couleur-secondaire-themeNuit: #191C24;
     --ma-couleur-tertiaire-themeNuit: #6C7293;
@@ -34,7 +49,7 @@
     
 
     --ma-couleur-element_1-themeNuit: #7216eb;
-    --ma-couleur-element_2-themeNuit: #7216eb;
+    --ma-couleur-element_2-themeNuit: #7216eb; */
 
 
     /* theme clair */
@@ -46,7 +61,7 @@
     --dark-themeNuit: #000000; */
 
 
-    --ma-couleur-patrimoine-themeNuit: rgb(116, 173, 234);
+    /* --ma-couleur-patrimoine-themeNuit: rgb(116, 173, 234);
     --ma-couleur-depenses-themeNuit : rgb(224, 118, 73);
     --ma-couleur-ratios-themeNuit : rgb(135, 110, 217);
     --ma-couleur-revenus-themeNuit : rgb(129, 198, 83);
@@ -65,14 +80,29 @@
     --ma-couleur-revenus-themeJour : rgb(129, 198, 83);
 
     --ma-couleur-element_1-themeJour: rgb(5, 101, 5);
-    --ma-couleur-element_2-themeJour: rgb(5, 101, 5);
+    --ma-couleur-element_2-themeJour: rgb(5, 101, 5); */
 
 
 
 
-    /* theme clair */
+    /* theme "gold and rock"  */
 
-    --ma-couleur-principale-theme1: #151515;;
+    --primary-theme1: goldenrod;
+    --secondary-theme1: rgb(158, 115, 5);
+    --box-theme1: #363636;
+    --icon-color-theme1: goldenrod;
+    --light-theme1: #363636;
+    --dark-theme1:#282828;
+    --background-theme1: #151515;
+
+    --ma-couleur-patrimoine-theme1: rgb(116, 173, 234);
+    --ma-couleur-depenses-theme1 : rgb(224, 118, 73);
+    --ma-couleur-ratios-theme1 : rgb(135, 110, 217);
+    --ma-couleur-revenus-theme1 : rgb(129, 198, 83);
+
+
+
+    /* --ma-couleur-principale-theme1: #151515;;
     --ma-couleur-secondaire-theme1: #282828;
     --ma-couleur-tertiaire-theme1: #363636;
 
@@ -86,11 +116,11 @@
     --ma-couleur-revenus-theme1 : rgb(129, 198, 83);
 
     --ma-couleur-element_1-theme1: goldenrod;
-    --ma-couleur-element_2-theme1: goldenrod;
+    --ma-couleur-element_2-theme1: goldenrod; */
 
     /* theme sombre */
 
-    --ma-couleur-principale-theme0: #823737;;
+    /* --ma-couleur-principale-theme0: #823737;;
     --ma-couleur-secondaire-theme0: #b22525;
     --ma-couleur-tertiaire-theme0: #842a2a;
 
@@ -104,12 +134,12 @@
     --ma-couleur-revenus-theme0 : rgb(129, 198, 83);
 
     --ma-couleur-element_1-theme0: goldenrod;
-    --ma-couleur-element_2-theme0: goldenrod;
+    --ma-couleur-element_2-theme0: goldenrod; */
 
 
     /* theme dark_blue */
 
-    --ma-couleur-principale-dark_blue: #313e54;
+    /* --ma-couleur-principale-dark_blue: #313e54;
     --ma-couleur-secondaire-dark_blue: #23334d;
     --ma-couleur-tertiaire-dark_blue: #313e54;
 
@@ -123,11 +153,11 @@
     --ma-couleur-revenus-dark_blue : rgb(129, 198, 83);
 
     --ma-couleur-element_1-dark_blue: #34e0e9;
-    --ma-couleur-element_2-dark_blue: #34e0e9;
+    --ma-couleur-element_2-dark_blue: #34e0e9; */
 
 
     /* theme 1 */
-    --ma-couleur-principale-theme1: #151515;;
+    /* --ma-couleur-principale-theme1: #151515;;
     --ma-couleur-secondaire-theme1: #282828;
     --ma-couleur-tertiaire-theme1: #363636;
 
@@ -141,19 +171,35 @@
     --ma-couleur-revenus-theme1 : rgb(129, 198, 83);
 
     --ma-couleur-element_1-theme1: goldenrod;
-    --ma-couleur-element_2-theme1: goldenrod;
+    --ma-couleur-element_2-theme1: goldenrod; */
 
 
     /* --ma-couleur-principale-theme2: #000000; */
-    --ma-couleur-principale-theme2: rgb(128, 37, 37);
+    /* --ma-couleur-principale-theme2: rgb(128, 37, 37);
     --ma-couleur-secondaire-theme2: #141414;
     --ma-couleur-tertiaire-theme2: #282828;
     --ma-couleur-element_1-theme2: #48008f;
-    --ma-couleur-element_2-theme2: #48008f;
+    --ma-couleur-element_2-theme2: #48008f; */
 
     /* Mon theme : */
+
+    --primary-my-theme: var(--primary-theme1);
+    --secondary-my-theme: var(--secondary-theme1);
+    --box-my-theme: var(--box-theme1);
+    --icon-color-my-theme: var(--icon-color-theme1);
+    --light-my-theme: var(--light-theme1);
+    --dark-my-theme:var(--dark-theme1);
+    --background-my-theme: var(--background-theme1);
+
+    --ma-couleur-patrimoine-my-theme: var(--ma-couleur-patrimoine-theme1);
+    --ma-couleur-depenses-my-theme : var(--ma-couleur-depenses-theme1);
+    --ma-couleur-ratios-my-theme : var(--ma-couleur-ratios-theme1 );
+    --ma-couleur-revenus-my-theme : var(--ma-couleur-revenus-theme1 );
+
+
+
     
-    --ma-couleur-principale-mon-theme: var(--ma-couleur-principale-theme1);
+    /* --ma-couleur-principale-mon-theme: var(--ma-couleur-principale-theme1);
     --ma-couleur-secondaire-mon-theme: var(--ma-couleur-secondaire-theme1);
     --ma-couleur-tertiaire-mon-theme:  var(--ma-couleur-tertiaire-theme1);
 
@@ -167,7 +213,7 @@
     --ma-couleur-revenus-mon-theme : var(--ma-couleur-revenus-theme1);
 
     --ma-couleur-element_1-mon-theme: var(--ma-couleur-element_1-theme1);
-    --ma-couleur-element_2-mon-theme: var(--ma-couleur-element_2-theme1);
+    --ma-couleur-element_2-mon-theme: var(--ma-couleur-element_2-theme1); */
 }
 
 /* body.thème-1 {

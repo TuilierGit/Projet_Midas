@@ -1,17 +1,18 @@
 function changer_mon_theme(new_theme) {
-  document.documentElement.style.setProperty('--ma-couleur-principale-mon-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-principale-' + new_theme).trim());
-  document.documentElement.style.setProperty('--ma-couleur-secondaire-mon-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-secondaire-' + new_theme).trim());
-  document.documentElement.style.setProperty('--ma-couleur-tertiaire-mon-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-tertiaire-' + new_theme).trim());
+  document.documentElement.style.setProperty('--primary-my-theme', getComputedStyle(document.documentElement).getPropertyValue('--primary-' + new_theme).trim());
+  document.documentElement.style.setProperty('--secondary-my-theme', getComputedStyle(document.documentElement).getPropertyValue('--secondary-' + new_theme).trim());
+  document.documentElement.style.setProperty('--box-my-theme', getComputedStyle(document.documentElement).getPropertyValue('--box-' + new_theme).trim());
 
-  document.documentElement.style.setProperty('--ma-couleur-bordure-mon-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-bordure-' + new_theme).trim());
+  document.documentElement.style.setProperty('--icon-color-my-theme', getComputedStyle(document.documentElement).getPropertyValue('--icon-color-' + new_theme).trim());
 
-  document.documentElement.style.setProperty('--ma-couleur-patrimoine-mon-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-patrimoine-' + new_theme).trim());
-  document.documentElement.style.setProperty('--ma-couleur-depenses-mon-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-depenses-' + new_theme).trim());
-  document.documentElement.style.setProperty('--ma-couleur-ratios-mon-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-ratios-' + new_theme).trim());
-  document.documentElement.style.setProperty('--ma-couleur-revenus-mon-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-revenus-' + new_theme).trim());
+  document.documentElement.style.setProperty('--light-my-theme', getComputedStyle(document.documentElement).getPropertyValue('--light-' + new_theme).trim());
+  document.documentElement.style.setProperty('--dark-my-theme', getComputedStyle(document.documentElement).getPropertyValue('--dark-' + new_theme).trim());
+  document.documentElement.style.setProperty('--background-my-theme', getComputedStyle(document.documentElement).getPropertyValue('--background-' + new_theme).trim());
 
-  document.documentElement.style.setProperty('--ma-couleur-element_1-mon-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-element_1-' + new_theme).trim());
-  document.documentElement.style.setProperty('--ma-couleur-element_2-mon-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-element_2-' + new_theme).trim());
+  document.documentElement.style.setProperty('--ma-couleur-patrimoine-my-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-patrimoine-' + new_theme).trim());
+  document.documentElement.style.setProperty('--ma-couleur-depenses-my-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-depenses-' + new_theme).trim());
+  document.documentElement.style.setProperty('--ma-couleur-ratios-my-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-ratios-' + new_theme).trim());
+  document.documentElement.style.setProperty('--ma-couleur-revenus-my-theme', getComputedStyle(document.documentElement).getPropertyValue('--ma-couleur-revenus-' + new_theme).trim());
 
   localStorage.setItem('theme', new_theme);
 }

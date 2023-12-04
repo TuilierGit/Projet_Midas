@@ -13,8 +13,8 @@ h1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
-    background-color: var(--ma-couleur-secondaire-mon-theme);
-    border: 0.2em solid var(--ma-couleur-bordure-mon-theme);
+    background-color: var(--box-my-theme);
+    border: 0.2em solid var(--dark-my-theme);
     margin: 50px;
     padding: 40px;
     height: 650px;

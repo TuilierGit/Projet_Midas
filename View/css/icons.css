@@ -25,7 +25,7 @@
     width: 20px;
     height: 2px;
     border-radius: 3px;
-    background: var(--icon-color);
+    background: var(--icon-color-my-theme);
    }
    
    .gg-menu::after,
@@ -50,7 +50,7 @@
     border: 2px solid;
     transform: scale(var(--ggs,1));
     border-radius: 22px;
-    border-color:var(--icon-color);
+    border-color:var(--icon-color-my-theme);
    }
    
    .gg-add::after,
@@ -61,7 +61,7 @@
     position: absolute;
     width: 10px;
     height: 2px;
-    background: var(--icon-color);
+    background: var(--icon-color-my-theme);
     border-radius: 5px;
     top: 8px;
     left: 4px
@@ -96,7 +96,7 @@
     position: absolute;
     width: 10px;
     height: 2px;
-    background: var(--icon-color);
+    background: var(--icon-color-my-theme);
     border-radius: 5px;
     top: 8px;
     left: 4px
@@ -184,10 +184,10 @@
    .gg-home {
     background:
     linear-gradient(to left,
-    var(--icon-color) 5px,transparent 0)
+    var(--icon-color-my-theme) 5px,transparent 0)
     no-repeat 0 bottom/4px 2px,
     linear-gradient(to left,
-    var(--icon-color) 5px,transparent 0)
+    var(--icon-color-my-theme) 5px,transparent 0)
     no-repeat right bottom/4px 2px;
     box-sizing: border-box;
     position: relative;
@@ -243,10 +243,10 @@
 /* Icon add-file */
 
 .gg-file-add {
-    /* background: var(--icon-color); */
+    /* background: var(--icon-color-my-theme); */
     background:
     linear-gradient(to bottom,
-    var(--icon-color) 5px,transparent 0)
+    var(--icon-color-my-theme) 5px,transparent 0)
     
     no-repeat 2px 9px/6px 2px;
     box-sizing: border-box;
@@ -274,7 +274,7 @@
     }
    
     .gg-file-add::before {
-    background: var(--icon-color);
+    background: var(--icon-color-my-theme);
     left: 4px;
     width: 2px;
     top: 7px
@@ -304,7 +304,7 @@
 }
 
 .gg-profile {
-    border-color: var(--icon-color);
+    border-color: var(--icon-color-my-theme);
  overflow: hidden;
  transform: scale(var(--ggs,1.5));
  width: 22px;
@@ -314,7 +314,7 @@
 
 .gg-profile::after,
 .gg-profile::before {
-    border-color: var(--icon-color);
+    border-color: var(--icon-color-my-theme);
  content: "";
  position: absolute;
  top: 2px;
@@ -324,7 +324,7 @@
 }
 
 .gg-profile::after {
-    border-color: var(--icon-color);
+    border-color: var(--icon-color-my-theme);
  border-radius: 200px;
  top: 11px;
  left: 0px;

@@ -6,7 +6,7 @@
 
 .box{
    border-radius: 10px;
-   background-color: var(--ma-couleur-secondaire-mon-theme);
+   background-color: var(--box-my-theme);
 }
 
 
@@ -99,7 +99,7 @@
 }
 
 #content__middle-1__element-1 h2{
-   color: var(--ma-couleur-element_1-mon-theme);
+   color: var(--primary-my-theme);
    margin-bottom: 20px;
 }
 
@@ -159,7 +159,7 @@
 
 .wrapper h1{
    margin: 15px;
-   color: var(--ma-couleur-element_1-mon-theme);
+   color: var(--primary-my-theme);
    /* background-color: var(--ma-couleur-secondaire-mon-theme); */
    font-size: 4em;
    text-shadow: 4px 3px 0px #000000, 9px 8px 0px rgba(0,0,0,0.15);
@@ -181,8 +181,8 @@
 }
 
 .navigation_top{
-   background-color: var(--ma-couleur-secondaire-mon-theme);
-   border: 0.15em solid var(--ma-couleur-bordure-mon-theme);
+   background-color: var(--box-my-theme);
+   border: 0.15em solid var(--box-my-theme);
    height: 150px;
 }
 
@@ -200,8 +200,8 @@
    text-align: center;
    background-color: #1c1e20;
 
-   color: var(--ma-couleur-element_1-mon-theme);
-   border: 0.2em solid var(--ma-couleur-element_2-mon-theme);
+   color: var(--primary-my-theme);
+   border: 0.2em solid var(--box-my-theme);
    /* color: goldenrod;
    border: 0.2em solid goldenrod; */
    border-radius: 20px;    
@@ -258,7 +258,7 @@
 
 
 .box_pdg h3{
-   color: var(--ma-couleur-element_1-mon-theme);
+   color: var(--primary-my-theme);
  }
  
  
@@ -313,15 +313,15 @@
    padding: 0px;
    width: 60%;
    border-radius: 40px;
-   background: linear-gradient(to right, var(--secondary-themeNuit) 0%, var(--primary-themeNuit) 100%);
+   background: linear-gradient(to right, var(--secondary-my-theme) 0%, var(--primary-my-theme) 100%);
 }
 
 .middle-button-front{
    padding: 20px ;
    border-radius: 40px;
-   background-color: var(--dark-themeNuit);
-   color:  var(--primary-themeNuit);
-   border: 0.2em solid var(--primary-themeNuit);
+   background-color: var(--background-my-theme);
+   color:  var(--primary-my-theme);
+   border: 0.2em solid var(--primary-my-theme);
 }
 
 .middle-button-front:hover{
@@ -339,17 +339,17 @@
 }
 
 #content__middle-1__element-2 h3{
-   color: var(--primary-themeNuit);
+   color: var(--primary-my-theme);
 
 }
 
 #content__middle-1__element-2 h2{
    padding-bottom: 0px;
-   color: var(--primary-themeNuit);
+   color: var(--primary-my-theme);
 }
 
 #content__middle-1__element-2 div{
-   background-color: var(--dark-themeNuit);
+   background-color: var(--dark-my-theme);
    margin: 20px;
    padding: 10px;
    border-radius: 20px;
