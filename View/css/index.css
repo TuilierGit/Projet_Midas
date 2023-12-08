@@ -23,62 +23,74 @@
    grid-template-rows: 100px;
    gap: 20px;
    margin-bottom: 20px;
-   
 }
 
-/* .head-box{
+
+
+
+.head-box{
    display: grid;
-    grid-template-rows: 1fr 1fr; 
+   grid-template-columns: [col1-start] 1fr [col2-start] 1fr [col3-start] 1fr [col3-end];
+   grid-template-rows: [row1-start] 2fr [row2-start] 1fr [row2-end];
+}
+
+/* .head-box--left{
+   background-color: rgb(85, 62, 30);
+   display: grid;
+   grid-template-columns: 1/3; 
 } */
 
+
+.head-box--right{
+   font-size: 2.7em;
+   grid-column: col2-start / col3-end;
+   grid-row: row1-start / row2-start;
+   text-align: center;
+   padding-top: 0.2em;
+   color: white;
+   /* background-color: aquamarine; */
+}
+
+
+
+
 .head-box--left-top{
-   position: relative;
-   width: 110px;
-   height: 70%;
-   /* background-color: rgb(18, 41, 33); */
+   grid-column: col1-start / col2-start;
+   grid-row: row1-start / row2-start ;
+   /* background-color:blue; */
 }
 
 .head-box--left-top span{ 
-   font-size: 80px;
+   font-size: 70px;
    font-variation-settings: 'OPSZ' 80;
    padding-left: 40px;
 }
 
 
 .head-box--left-bottom{
-   position: relative;
+   grid-column: col1-start / col3-end;
+   grid-row: row2-start / row2-end ;
    color: white;
-   
-   /* background-color: blanchedalmond; */
+   /* background-color: antiquewhite; */
 }
 
 #head-box--patrimoine_net{
-   padding-left: 20px;
+   padding-left: 1em;
 }
 
 #head-box--revenus{
-   padding-left: 40px;
+   padding-left: 1.3em;
 }
 
 #head-box--depenses{
-   padding-left: 40px;
+   padding-left: 1.3em;
 }
 
 #head-box--taux_epargne{
-   padding-left: 20px;
+   padding-left: 1em;
 }
 
-.head-box--right{
-   position: relative;
-   color: white;
-   /* background-color: aqua; */
-   width: 230px;
-   top: -70px;
-   right: -190px;
-   font-size: 2.5em;
-   text-align: center;
 
-}
 
 /* ///////////////////////////////////////// */
 
@@ -105,27 +117,17 @@
 
 
 #content__middle-1__element-1 a{
-   /* position: relative;
-   top :30px;
-   right: -115px; */
    margin-bottom: 20px;
    text-align: center;
-   /* margin: 20px; */
-   /* margin-left: 80px; */
-   background-color: antiquewhite;
 }
 
-.content__middle-1__element-3{
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-template-rows: 1fr 1fr;
-   gap: 10px;
-   margin: 10px;
-}
+/* .content__middle-1__element-3{
+   padding-left: 10px;
+} */
 
-.sous_box{
+/* .sous_box{
    background-color: antiquewhite;
-}
+} */
 
 
 
