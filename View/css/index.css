@@ -7,6 +7,8 @@
 .box{
    border-radius: 10px;
    background-color: var(--box-my-theme);
+   /* background-color: rgba(24, 24, 24, 0.5); */
+   /* opacity: 0.5; */
 }
 
 
@@ -85,7 +87,7 @@
    display: grid;
    gap: 20px;
    grid-template-columns: [col1-start] 1fr [col2-start] 1fr [col3-start] 1fr [col4-start] 1fr [col4-end];
-   grid-template-rows: [row1-start] 500px [row2-start] 400px [row2-end];
+   grid-template-rows: [row1-start] 500px [row2-start] 218px [row2-end];
 }
 
 /* //////////////// */
@@ -162,6 +164,7 @@
 #content__middle__element-4{
    grid-column: col1-start / col4-end;
    grid-row: row2-start / row2-end;
+   margin-bottom: 1em;
 }
 
 
@@ -181,6 +184,7 @@
    margin-right: 380px; 
    height: 920px;
    padding: 0px;
+   display: none;
    /* background-color: var(--ma-couleur-tertiaire-mon-theme);
    border-right: 0.15em solid var(--ma-couleur-bordure-mon-theme);
    border-left: 0.15em solid var(--ma-couleur-bordure-mon-theme); */
@@ -201,7 +205,8 @@
 
  .navigation{
    margin-left: 50px;
-   display: grid;
+   /* display: grid; */
+   display: none;
    grid-template-rows: 1fr 1fr;
    float: left;
    /* width: 30%; */
@@ -230,7 +235,6 @@
    padding: 20px;
    text-align: center;
    background-color: #1c1e20;
-
    color: var(--primary-my-theme);
    border: 0.2em solid var(--box-my-theme);
    /* color: goldenrod;
@@ -325,6 +329,11 @@
 }
 
 
+
+
+/* ///////////////////////////////////////// */
+/* //////           Button            ////// */
+/* ///////////////////////////////////////// */
 
 
 .button-group{

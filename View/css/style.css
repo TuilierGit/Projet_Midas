@@ -4,12 +4,17 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
     font-family: 'Manrope', sans-serif;
     font-size: 1.2em;
-    background-color: var(--background-my-theme);
+    /* background-color: var(--background-my-theme); */
+    /* background-image: linear-gradient(45deg, #29323c, #485563); */
+    background-image: linear-gradient(45deg, #6a11cb, #2575fc);
+    background-size: 100% 100%;
+    background-position: center;
 }
 
 a{

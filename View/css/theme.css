@@ -5,13 +5,14 @@
 
     /* theme nuit */
 
-    --primary-themeNuit: #7216eb;
+    --primary-themeNuit: #7216eb; 
+    /* --primary-themeNuit: #7216eb;  */
     --secondary-themeNuit: #390a77;
-    --box-themeNuit: #191C24;
+    --box-themeNuit: #191C2485;
     --icon-color-themeNuit: #7216eb;
     --light-themeNuit: #6C7293;
-    --dark-themeNuit:#000000;
-    --background-themeNuit: #000000;
+    --dark-themeNuit:#00000085;
+    --background-themeNuit: #000000b0;
 
     --ma-couleur-patrimoine-themeNuit: rgb(116, 173, 234);
     --ma-couleur-depenses-themeNuit : rgb(224, 118, 73);
@@ -226,3 +227,10 @@ body.thème-2 {
     color: var(--ma-couleur-secondaire-theme2);
 } */
   
+
+#theme9 {
+    background-image: linear-gradient(45deg, #29323c, #485563);
+    background-size: 100% 100%;
+    background-position: center;
+    transition: background .3s;
+}
