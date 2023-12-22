@@ -15,8 +15,13 @@
 
     <script src='../../Controller/main.js' defer></script>
     <script src='../../Controller/option.js' defer></script>
+    
     <script src='../../Controller/theme.js' defer></script>
     <script src='../../Controller/valeurs_importantes.js'></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4"></script>
+    <script src='../../Controller/graphs.js' defer></script>
 </head>
 
 <body>
@@ -179,7 +184,9 @@
 
 
             <div class="box" id="content__middle__element-3">
-                ye
+                <div style="width: 80%; height: 90%; margin: auto;">
+                    <canvas id="monGraphique"></canvas>
+                </div>
             </div>
 
 
@@ -188,6 +195,13 @@
             </div>
 
         </div>
+        <div style="width: 80%; margin: auto;">
+            <canvas id="monDoughnutChart"></canvas>
+          </div>
+
+          <div style="width: 80%; margin: auto;">
+            <canvas id="monGraphiqueBarresHorizontales"></canvas>
+          </div>
     </div>
 
 
