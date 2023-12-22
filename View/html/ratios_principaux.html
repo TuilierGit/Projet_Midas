@@ -8,20 +8,18 @@
     <link rel='stylesheet' href='../css/style.css'>
     <link rel='stylesheet' href='../css/ratios_principaux.css'>
     <link rel='stylesheet' href='../css/product.css'>
+    <link rel='stylesheet' href='../css/icons.css'>
+
     <title>Document</title>
 
     <script src='../../Controller/theme.js' defer></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4"></script>
+    <script src='../../Controller/graphs.js' defer></script>
 </head>
 
 <body>
-    <!-- <header>
-        <nav>
-            <div>
-                <a href="index.html">Accueil</a>
-                <a href="a_propos.html">À propos</a>
-            </div>
-        </nav>
-    </header> -->
+
     <header class="app_header">
         <div class="app_header-globalBar">
 
@@ -34,9 +32,15 @@
                 
                 <div class="icons-header-right">
                     <!-- <a><span class="material-symbols-outlined">search</span></a> -->
-                    <a><span class="material-symbols-outlined">settings</span></a>
+                    <!-- <a><span class="material-symbols-outlined">settings</span></a> -->
+                    <div>
+                        <span class="material-symbols-outlined" id="toggle_on">toggle_on</span>
+                        <span class="material-symbols-outlined" id="toggle_off">toggle_off</span>
+                    </div>
+                    <div id="option_button"><span class="material-symbols-outlined">more_horiz</span></div>
+                    <div><span class="material-symbols-outlined">output</span></div>
                     <!-- <span class="material-symbols-outlined">favorite</span> -->
-                </div>
+                </div> 
         </div>
     </header>
 
@@ -44,7 +48,11 @@
         <h1 class="center">Ratios Principaux</h1>
 
         <div class="list_of_graphs">
-            <div class="graph" id="graph_1">Graphique 1 </div>
+            <div class="graph" id="graph_1">
+                <div style="width: 80%; height: 90%; margin: auto;">
+                    <canvas id="graph-patrimoine_net"></canvas>
+                </div>
+            </div>
             <div class="graph" id="graph_2">Graphique 2 </div>
             <div class="graph" id="graph_3">Graphique 3 </div>
             <div class="graph" id="graph_4">Graphique 4 </div>

@@ -72,13 +72,14 @@ footer {
     position: fixed;
     width: 100%;
     background-color: var(--box-my-theme);
-    padding: 7px 0px;
+    padding: 0.3em 0em;
     z-index: 100; 
 }
 
 
 footer{
     /* border-top: 0.15em solid var(--ma-couleur-bordure-mon-theme); */
+    display: none;
     bottom: 0;
 }
 
