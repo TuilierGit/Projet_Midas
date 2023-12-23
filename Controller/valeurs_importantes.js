@@ -1,5 +1,7 @@
 
 
+
+
 last_net_worth = 1500;
 income = 450;
 expenses = 125;

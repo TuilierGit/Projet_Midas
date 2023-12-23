@@ -1,13 +1,13 @@
 
 
-///////////////////// Graphique 1 : 
+///////////////////// Graphique 1 : patrimoine_net
 
 // Données de l'évolution mensuelle
 var mois = ['Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil', 'Aoû', 'Sep', 'Oct', 'Nov', 'Déc'];
 var valeursEnEuros = [100, 150, 200, 180, 250, 300, 280, 320, 350, 400, 380, 420];
 
 // Créer le graphique
-var ctx = document.getElementById('monGraphique').getContext('2d');
+var ctx = document.getElementById('graph-patrimoine_net').getContext('2d');
 var monGraphique = new Chart(ctx, {
     type: 'line',
     data: {
