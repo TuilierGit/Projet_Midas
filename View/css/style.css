@@ -125,6 +125,7 @@ footer{
 
 
 .icons-header-right{
+    margin-right: 1em;
     /* background-color: var(--ma-couleur-tertiaire-mon-theme); */
     float: right;
     padding: 7px 7px;
